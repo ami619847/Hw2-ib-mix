@@ -1,26 +1,10 @@
-# Homework Assignment
+# Homework Assignment 2
 
-This assignment covers the first week of the Intermediate Bootcamp. This repository contains 3 test files, each covering a single task. The order of the tasks does not matter. You can complete them in any order. Try to complete as many of them as you can.
-
-First run `yarn install` to install the dependencies.
-Run the tests with the command `yarn test`. Read the instructions in this document to know what is expected of you. The tests are meant to help you know when you've completed a task. You can and should read the tests to see exactly what it's expecting, especially if you're getting errors. However, do **not** change the tests.
-
-_Note: we'll use the results of this homework assignment for a formal evaluation and as such you should write the code individually. **Plagiarism is a violation of the Academy contract and makes nobody happy. Do not discuss this assignment in slack**_
-
-**Note:** You _can_ implement some of them out of order!
-
-## How to submit your results
-
-**Send your homework to teachers@codaisseur.com before Sunday 20:00**
-
-Clean up your code:
-
-- Fix the formatting/indentation
-- Remove unnecessary code.
-
-The app should be runnable simply by cloning the repository and running `yarn test`
+This assignment covers the first week of the Intermediate Bootcamp. This repository contains 3 test files, each covering a single task. 
 
 ## Instructions
+Run `yarn install` to install the dependencies.
+Run the tests with the command `yarn test`. 
 
 ### Assignment 1: ShoppingCart
 
