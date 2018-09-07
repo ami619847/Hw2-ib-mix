@@ -21,7 +21,8 @@ module.exports = class ShoppingCart{
   }
 
   clone() {
-    const newItems = Object.assign({}, this.items);
+    const newItems = new ShoppingCart();
+    newItems.items = JSON.parse(JSON.stringify(this.items))
     return newItems;
   }
 }

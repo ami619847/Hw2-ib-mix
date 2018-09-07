@@ -3,7 +3,7 @@ function giveItBackLater(value, callback) {
     callback(value);
   }
   setTimeout(loadComplete, 100);
-}
+};
 
 function promiseToGiveItBackLater(value) {
   return new Promise((resolve, reject) => {
@@ -12,18 +12,12 @@ function promiseToGiveItBackLater(value) {
     }
     setTimeout(loadComplete, 100);
   });
-}
+};
 
 function addSomePromises (somePromise) {
-   return new Promise((resolve, reject) => {
-    if (somePromise) {
-      resolve(somePromise+somePromise);
-    } else {
-      reject (somePromise + somePromise+somePromise);
-    }
-  });
-}
-
-//const outputPromise = addSomePromises(somePromise)
+  return somePromise 
+    .then((result) => result.repeat(2))
+    .catch((error) => error.repeat(3)) 
+};
 
 module.exports = {giveItBackLater, addSomePromises, promiseToGiveItBackLater}
